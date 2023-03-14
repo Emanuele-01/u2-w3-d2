@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 15px 0 15px 0;
+    border: 2px solid #000;
+}
+.button{
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    background: none;
+}
+.succes{
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+.delete{
+    border: 2px solid rgb(163, 0, 0);
+    background-color: red;
+}
