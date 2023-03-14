@@ -19,7 +19,7 @@ let counterValue = parseInt(sessionStorage.getItem("lastCounterValue")) || 0;
 let heading;
 
 const updateCounterInDOM = () => {
-    heading.innerText = counterValue;
+    heading.innerText =  counterValue +' ' + 'Seconds';
 };
 
 window.onload = () => {
